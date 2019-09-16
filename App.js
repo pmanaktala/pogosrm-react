@@ -5,7 +5,6 @@ import {
   Linking,
   SafeAreaView,
   StyleSheet,
-  NativeModules,
   TextInput,
   ActivityIndicator,
   ScrollView,
@@ -59,9 +58,6 @@ const styles = StyleSheet.create({
     marginBottom: 0.5,
     height: 15,
   },
-  // container: { padding: 12, paddingTop: 30, backgroundColor: '#fff' },
-  // head: { height: 40, backgroundColor: '#f1f8ff' },
-  // text: { margin: 6 },
   mycard: { width: '90%', marginBottom: 7 },
   cardBody: {
     backgroundColor: '#f9f3ec',
@@ -73,9 +69,11 @@ const styles = StyleSheet.create({
     marginBottom: 5,
     paddingLeft: 10,
     fontSize: 18,
-    height: 30,
+    height: 45,
     borderWidth: 2,
     borderColor: 'black',
+    justifyContent: 'center',
+    color:'black',
   },
   copyArea: {},
 });
@@ -252,6 +250,7 @@ class HomeScreen extends React.Component {
             value={this.state.searchText}
             onChange={this.setSearchText.bind(this)}
             placeholder="Search"
+            placeholderTextColor="#202020"
           />
           <View style={{ alignItems: 'center', margin: 3 }}>
             {this.renderTable()}

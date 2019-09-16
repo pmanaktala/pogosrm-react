@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "833263330391",
+    "firebase_url": "https://pogo-srm.firebaseio.com",
+    "project_id": "pogo-srm",
+    "storage_bucket": "pogo-srm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833263330391:android:c3ab987c623e16fe35af12",
+        "android_client_info": {
+          "package_name": "com.pokemonsrm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833263330391-u3an4mgp0am99ek73heqo9fmqtjefo33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpiOdx3KXjQg2_rYowC40aEPjgaEBYS24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833263330391-u3an4mgp0am99ek73heqo9fmqtjefo33.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
