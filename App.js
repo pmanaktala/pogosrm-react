@@ -270,7 +270,7 @@ class AboutScreen extends React.Component {
     return (
       <SafeAreaView>
         <Text style={{ padding: 5, fontSize: 17 }}>
-          This application is for the ease of searching the name/trainer code of
+          This application is for the ease of searching the name / trainer code of
           the player who you are friends with or if you want to add new friends.
           Feel free to come up with suggestions that can be included or ping me
           incase of any errors.
